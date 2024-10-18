@@ -1,24 +1,20 @@
 # chat_test
 
-## Project setup
+Проект был создан на Vue 2, также было использовано библиотеки Vuex, Vue-router, vue-bootstrap, moment.js
+
+## Запуск проекта
 ```
-npm install
+Клонировать репозиторий с github.com: git clone https://github.com/aocnonsmoker/chat_test.git
+
+Перейти в директорию проекта: cd chat_test
+
+Установить зависимости: npm install
+
+Запуск проекта: npm run serve
+
 ```
 
-### Compiles and hot-reloads for development
+### Описание проекта
 ```
-npm run serve
+Создан мини чат с 3 пользователями, при выборе одного можно отправлять и получать сообщения от остальных двух ползователей. При выборе одного из чатов, появляется окно чата где отображаются сообщения по хронологии, более старые сообщения сверху вниз. Сообщения синего цвето это входящие, зеленые - исходящие сообщения, и указана дата отправки сообщении. Внизу окна есть поле ввода сообщения, после ввода можно нажать на клавишу Enter, либо нажать на кнопку "Отправить". Есть возможность смены пользователя с помощью кнопки "Выйти", где вы сможете переместиться на начальную страницу выбора пользователя.
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
